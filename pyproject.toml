@@ -3,9 +3,11 @@ name = "photo-importer"
 version = "0.1.0"
 description = ""
 authors = ["Jonathan Gazeley <me@jonathangazeley.com>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.6,<4.0"
+exifread = "^2.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"
